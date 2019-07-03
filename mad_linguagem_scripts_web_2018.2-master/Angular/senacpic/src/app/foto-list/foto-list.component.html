@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="card-deck mb-3 text-center">
+        <!-- inbound property -->
+        <app-foto 
+            *ngFor="let f of fotos"
+            [url]="f.url" 
+            [titulo]="f.titulo" 
+            [alternativo]="f.alt" 
+            [descricao]="f.descricao">
+        </app-foto>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+<meta charset="utf-8">
+<!--
+    Array
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+-->
+<script>
+    var alunos = [
+        "João", "Patrick", "Anderson", 
+        "Wagner", "Jocimar", "Rafael", "Giullyan", "Yuri",
+        "Iego", "Marllon", "Jordan", "Matheus"
+    ];
+
+    //console.log(alunos[9]);
+    // length - informa o tamanho
+    //console.log(alunos.length);
+
+    // imprimir todo o array
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    // adicionar um elemento ao final do array (na última posição)
+    alunos.push("Larissa");
+    alunos.push("David");
+
+    //console.log(`Array após a utilização da função push`);
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+    
+    // remover um elemento do final do array (da última posição)
+    alunos.pop();
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+    // adicionar um elemento ao inicio do array (na primeira posição)
+    alunos.unshift("Luis");
+
+    //console.log(`Array após a utilização da função unshift`);
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+    
+    // remover um elemento do inicio do array (da primeira posição)
+    alunos.shift();
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    // adicionar um elemento em uma posição especifica
+    alunos.splice(6, 0, 'Luis');
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    // substituir um elemento em uma posição especifica
+    alunos.splice(6, 1, 'Luis');
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    // localizar o índice
+    var posicao = alunos.indexOf('David');
+
+    // remover o aluno apartir do índice
+    alunos.splice(posicao, 1);
+    for(var i = 0; i < alunos.length; i++) {
+        //console.log(alunos[i] + "\n");
+    }
+
+    // classificar o array
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+    //console.log(alunos.sort());
+
+    /*
+        Imprimir o array de forma invertida e substituir por Amanda o terceiro elemento da posição.
+    */
+
+   console.log(alunos.reverse());
+   alunos.splice(2, 1, 'Amanda');
+</script>

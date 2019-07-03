@@ -1,0 +1,21 @@
+<input type="text" id="senha">
+<button>Click</button>
+
+<!-- biblioteca jQuery versão 1.12.4 -->
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+  <!-- O código em jQuery tem SEMPRE estar após o import da biblioteca -->
+  <script>
+      $(document).ready(function(){
+        $('#senha').val('Tag alterada');
+        $('button').click(function(){
+            if($('#senha').attr('type') == 'text')
+                $('#senha').attr('type', 'password');
+            else 
+                $('#senha').attr('type', 'text');
+        });
+      });
+  </script>

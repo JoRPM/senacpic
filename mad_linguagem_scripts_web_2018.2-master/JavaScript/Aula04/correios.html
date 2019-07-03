@@ -1,0 +1,97 @@
+<!--
+https://regexr.com/
+https://medium.com/trainingcenter/entendendo-de-uma-vez-por-todas-express%C3%B5es-regulares-parte-7-66be1ac1f72d
+http://intentor.com.br/pequeno-guia-regex/
+https://docs.microsoft.com/pt-br/dotnet/standard/base-types/regular-expression-language-quick-reference
+http://aprenda.vidageek.net/aprenda/regex
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions
+-->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Correios</title>
+  </head>
+  <body>
+    <main class="col-6 offset-3">
+        <h1>Correios JSON</h1>
+        <div class="container">
+            <fieldset>
+                <legend>Informe o CEP</legend>
+                <form>
+                    <div class="form-group">
+                        <label for="cep">CEP</label>
+                        <input class="form-control" type="text" placeholder="CEP" id="cep">
+                    </div>
+                    <div class="form-group">
+                        <label for="logradouro">Logradouro</label>
+                        <input class="form-control" type="text" placeholder="Logradouro" id="logradouro">
+                    </div>
+                    <div class="form-group">
+                        <label for="bairro">Bairro</label>
+                        <input class="form-control" type="text" placeholder="Bairro" id="bairro">
+                    </div>
+                    <div class="form-group">
+                        <label for="cidade">Cidade</label>
+                        <input class="form-control" type="text" placeholder="Cidade" id="cidade">
+                    </div>
+                    <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <input class="form-control" type="text" placeholder="Estado" id="estado">
+                    </div>
+                    <div class="form-group">
+                        <label for="complemento">Complemento</label>
+                        <input class="form-control" type="text" placeholder="Complemento" id="complemento">
+                    </div>
+                    <div>
+                        <button class="btn btn-dark">Enviar</button>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#cep').blur(function(){
+                // regex - Expressão Regular
+                var cep = $(this).val().replace(/\D/g, '');
+                
+                if(cep != "") {
+                    // verificar usando regex o tamanho do cep, lembrando que um cep contem 8 digitos
+                    $("#logradouro").val("...");
+                    $("#bairro").val("...");
+                    $("#cidade").val("...");
+                    $("#estado").val("...");
+                    $("#complemento").val("...");
+                } else {
+                    alert('cep vazio');
+                }
+
+                var url = `http://viacep.com.br/ws/${cep}/json/`;
+
+                // função para consumir o web api JSON
+                $.getJSON(url, function(json){
+                    console.log(json);
+                    $("#logradouro").val(json.logradouro);
+                    $("#bairro").val(json.bairro);
+                    $("#cidade").val(json.localidade);
+                    $("#estado").val(json.uf);
+                    $("#complemento").val(json.complemento);
+                });
+            })
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<p id="tag1" onclick="quandoClicar()" onmousewheel="quandoRodarScroll()">
+    Mussum Ipsum, cacilds vidis litro abertis. 
+    Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. 
+    Per aumento de cachacis, eu reclamis. Delegadis gente finis, 
+    bibendum egestas augue arcu ut est. Vehicula non. Ut sed ex eros. 
+    Vivamus sit amet nibh non tellus tristique interdum.
+</p>
+
+<script>
+    var tag = document.getElementById("tag1");
+    function quandoClicar() {
+        if(tag.style.fontStyle == "italic")
+            tag.style.fontStyle = "normal";
+        else {
+            tag.style.fontStyle = "italic";
+        }
+    }
+
+    function quandoRodarScroll() {
+        let color = tag.style.color;
+        if(color != "red") {
+            tag.style.color = "red";
+        } else {
+            tag.style.color = "green";
+        }
+    }
+</script>
+
+<!--
+    1. Tratar eventos de entrar o mouse encima da imagem, click na imagem e saída do mouse da imagem.
+    A atividade será você tratar 3 imagens, aonde quando se abrir a página terá uma lampada apagada, quando colocar o mouse encima dela
+    a lampada deve se acender (trocar a imagem por uma lampada acesa), ao clicar na imagem a lampada deve se quebrar (trocar a imagem por uma lampada quebrada)
+    e ao retirar o mouse decima da imagem deve-se voltar a imagem de lampada apagada.
+
+    ** DESAFIO **
+    Implementar o exercício em jQuery.
+-->

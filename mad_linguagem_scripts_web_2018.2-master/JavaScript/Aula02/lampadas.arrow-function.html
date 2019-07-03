@@ -1,0 +1,28 @@
+<!--
+    Event​Listener
+    https://developer.mozilla.org/pt-BR/docs/Web/API/EventListener
+    https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+    Functions(Functions, expression functions, arrow functions)
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions
+    https://www.w3schools.com/js/js_function_definition.asp
+
+    Eventos
+    https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Elementos_construtivos/Events
+    https://www.w3schools.com/js/js_events.asp
+-->
+<img id="lampada" src="./img/apagada.jpg">
+
+<script>
+    var lampada = document.getElementById("lampada");
+    lampada.addEventListener("click", () => {
+        lampada.src = "./img/quebrada.jpg";
+    });
+
+    lampada.addEventListener("mouseenter", () => {
+        lampada.src = "./img/acesa.jpg";
+    });
+    lampada.addEventListener("mouseout", () => {
+        lampada.src = "./img/apagada.jpg";
+    });
+</script>

@@ -1,0 +1,26 @@
+// http://dontpad.com/exercicios_ts
+Exercício 01
+Crie uma variável com valor 190 e após isso acumule 
+nela o valor de 45 e exiba o novo valor na console.
+
+Exercício 02
+Crie uma variável com a palavra 'TypeScript' e posterior 
+a em seguida insira no inicio da palavra 'Aula de '.
+Após isso exiba a frase na console.
+
+Exercício 03
+Faça um programa para dada a idade de uma pessoa informe
+que a pessoa pode votar, lembrando que:
+    Até 16 anos não pode votar
+    Menores de 18 anos e maiores de 70 anos
+
+Exercício 04
+Faça um programa para dado o nome, mês e ano de 
+nascimento, informar a idade correta da pessoa.
+    ex.: Luis 32 anos
+
+Exercício 05
+Faça uma função para calcular 3 valores distintos, 
+lembrando que pode ocorrer de somente ser passado 2
+valores, quando isso ocorrer, devesse passar o 3º valor
+como 0.
