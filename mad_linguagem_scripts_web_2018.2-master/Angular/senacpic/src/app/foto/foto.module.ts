@@ -2,10 +2,14 @@ import { NgModule } from "@angular/core";
 import { FotoComponent } from './foto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { FotoRegistroComponent } from '../foto-registro/foto-registro.component';
+import { FotoListComponent } from '../foto-list/foto-list.component';
 
 @NgModule({
     declarations: [
-        FotoComponent
+        FotoComponent,
+        FotoRegistroComponent,
+        FotoListComponent
     ],
     // são os modulos que serão incorporados nesse arquivo
     imports: [

@@ -2,31 +2,34 @@
 "fotos":[
     {
         "id": 1,
-        "titulo": "Windranger",
-        "alt": "Windrager Lyralei",
-        "url": "https://gamepedia.cursecdn.com/dota2_gamepedia/6/60/Windranger_icon.png?version=21ac0a7a66f625fc8bb20bf511e2fcee",
-        "desc": "As florestas ao oeste guardam bem os seus segredos. Um deles é Lyralei, arqueira mestra dos bosques e afilhada favorita do vento. Conhecida nos dias de hoje como Windranger, a família de Lyralei foi morta em uma tempestade na noite do seu nascimento – a sua casa destruída pelo temporal e tudo que havia dentro espalhado ao vento."
+        "titulo": "Legendary SS Broly",
+        "alt": "The Legendary Super Saiyan",
+        "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4c6375bc-2899-41b7-b087-242c7cc86a23/dchgggh-3ccd4a79-ce73-4764-aecd-bd50806697bb.png/v1/fill/w_751,h_1064,strp/new_broly_legendary_ssj_by_andrewdb13_dchgggh-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI2NyIsInBhdGgiOiJcL2ZcLzRjNjM3NWJjLTI4OTktNDFiNy1iMDg3LTI0MmM3Y2M4NmEyM1wvZGNoZ2dnaC0zY2NkNGE3OS1jZTczLTQ3NjQtYWVjZC1iZDUwODA2Njk3YmIucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iplZZr9hFiPU1Qio4UzHdej9c_428ldUolSGny6mYyI",
+        "descricao": "Shintani Style"
     },
+
     {
         "id": 2,
-        "titulo": "Viper",
-        "alt": "Viper the Netherdrake",
-        "url": "https://gamepedia.cursecdn.com/dota2_gamepedia/5/5f/Viper_icon.png?version=02fc822884d25d0d9dc8a7168cd5220a",
-        "descricao": "O companheiro malévolo de um feiticeiro sádico que o capturou e tinha esperanças de o domar, Viper estava curiosamente feliz por ter sido libertado dos selados e inalteráveis Confins das Profundezas, onde a sua raça viveu durante milhões de anos, depois de tremores tectônicos terem selado os Netherdrakes em cavernas luminosas."
+        "titulo": "SS God Vegeta",
+        "alt": "The Prince of All Saiyans",
+        "url": "https://pbs.twimg.com/media/DrvkpBVX4AAT53p.jpg",
+        "descricao": "Shintani Style"
     },
+
     {
         "id": 3,
-        "titulo": "Invoker",
-        "alt": "Invoker",
-        "url": "https://gamepedia.cursecdn.com/dota2_gamepedia/0/00/Invoker_icon.png?version=a05311a16f9617780b6d293e49373b8a",
-        "descricao": "Na sua mais primitiva e, diriam alguns, mais potente forma, a magia era basicamente a arte da memória. Não demandava tecnologia, nem cajados ou qualquer artifício além da mente do mago. A simbologia dos rituais é apenas um recurso mnemônico, para que o praticante lembre com detalhes a exata fórmula mental de um feitiço."
+        "titulo": "SS Blue Goku",
+        "alt": "The Super Saiyan God",
+        "url": "https://i.pinimg.com/736x/15/cf/ae/15cfae5d3714eb4189589615945690bd.jpg",
+        "descricao": "Shintani Style"
     },
+
     {
         "id": 4,
-        "titulo": "Luna",
-        "alt": "Luna, a Moon Rider",
-        "url": "https://gamepedia.cursecdn.com/dota2_gamepedia/7/7d/Luna_icon.png?version=cd9a5e270039b761aa9ca778f5dec708",
-        "descricao": "Como ela havia se reduzido a isto? Ela fora o Flagelo das Planícies, uma impiedosa líder de homens e feras, capaz de semear o terror por onde quer que se aventurasse."
+        "titulo": "SS Rosé Goku Black",
+        "alt": "The Evil Super Saiyan God",
+        "url": "https://i.pinimg.com/originals/29/e3/ae/29e3ae12ae463720d95154c118539ac7.jpg",
+        "descricao": "Shintani Style"
     }
   ],
   "usuarios": [],
