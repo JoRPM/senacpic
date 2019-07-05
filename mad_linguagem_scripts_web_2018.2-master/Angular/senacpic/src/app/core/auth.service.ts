@@ -20,4 +20,6 @@ export class AuthService {
   autenticacao(username:string, password:string) {
     return this.http.get(`${API_URL}/usuarios?username=${username}&password=${password}`)
   }
+
+  
 }

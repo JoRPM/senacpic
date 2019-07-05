@@ -1,25 +1,29 @@
 <div class="col-6 offset-2">
   <fieldset>
     <legend>Cadastro de Fotos</legend>
-    <form>
+    <form [formGroup]="fotoForm" (submit)="addFoto()">
       <div class="form-group">
         <label for="idTitulo">Titulo</label>
-        <input id="idTitulo" type="text" class="form-control" placeholder="Informe o titulo">
+        <input formControlName="titulo" id="idTitulo" type="text" class="form-control" placeholder="Informe o titulo">
+        <small *ngIf="fotoForm.get('titulo').errors?.required" class="text-danger d-block mt-2">Informe o Título</small>
       </div>
       <div class="form-group">
         <label for="idTituloAlt">Titulo Alternativo</label>
-        <input id="idTituloAlt" type="text" class="form-control" placeholder="Informe o titulo alternativo">
+        <input formControlName="tituloAlt" id="idTituloAlt" type="text" class="form-control" placeholder="Informe o titulo alternativo">
+        <small *ngIf="fotoForm.get('tituloAlt').errors?.required" class="text-danger d-block mt-2">Informe um Subtítulo</small>
       </div>
       <div class="form-group">
         <label for="idDescricao">Descrição</label>
-        <input id="idDescricao" type="text" class="form-control" placeholder="Informe a descrição">
+        <input formControlName="descricao" id="idDescricao" type="text" class="form-control" placeholder="Informe a descrição">
+        <small *ngIf="fotoForm.get('descricao').errors?.required" class="text-danger d-block mt-2">Informe a descrição</small>
       </div>
       <div class="form-group">
         <label for="idURL">URL</label>
-        <input id="idURL" type="url" class="form-control" placeholder="Informe a URL">
+        <input formControlName="url" id="idURL" type="url" class="form-control" placeholder="Informe a URL">
+        <small *ngIf="fotoForm.get('url').errors?.required" class="text-danger d-block mt-2">Informe a URL</small>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-dark">Registrar</button>
+        <button [disabled] type="submit" class="btn btn-dark">Registrar</button>
       </div>
     </form>
   </fieldset>
