@@ -1,44 +1,61 @@
 {
-"fotos":[
+  "fotos": [
     {
-        "id": 1,
-        "titulo": "Legendary SS Broly",
-        "alt": "The Legendary Super Saiyan",
-        "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4c6375bc-2899-41b7-b087-242c7cc86a23/dchgggh-3ccd4a79-ce73-4764-aecd-bd50806697bb.png/v1/fill/w_751,h_1064,strp/new_broly_legendary_ssj_by_andrewdb13_dchgggh-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI2NyIsInBhdGgiOiJcL2ZcLzRjNjM3NWJjLTI4OTktNDFiNy1iMDg3LTI0MmM3Y2M4NmEyM1wvZGNoZ2dnaC0zY2NkNGE3OS1jZTczLTQ3NjQtYWVjZC1iZDUwODA2Njk3YmIucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iplZZr9hFiPU1Qio4UzHdej9c_428ldUolSGny6mYyI",
-        "descricao": "Shintani Style"
+      "id": 1,
+      "titulo": "Legendary SS Broly",
+      "alt": "The Legendary Super Saiyan",
+      "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4c6375bc-2899-41b7-b087-242c7cc86a23/dchgggh-3ccd4a79-ce73-4764-aecd-bd50806697bb.png/v1/fill/w_751,h_1064,strp/new_broly_legendary_ssj_by_andrewdb13_dchgggh-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI2NyIsInBhdGgiOiJcL2ZcLzRjNjM3NWJjLTI4OTktNDFiNy1iMDg3LTI0MmM3Y2M4NmEyM1wvZGNoZ2dnaC0zY2NkNGE3OS1jZTczLTQ3NjQtYWVjZC1iZDUwODA2Njk3YmIucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iplZZr9hFiPU1Qio4UzHdej9c_428ldUolSGny6mYyI",
+      "descricao": "Shintani Style"
     },
-
     {
-        "id": 2,
-        "titulo": "SS God Vegeta",
-        "alt": "The Prince of All Saiyans",
-        "url": "https://pbs.twimg.com/media/DrvkpBVX4AAT53p.jpg",
-        "descricao": "Shintani Style"
+      "id": 2,
+      "titulo": "SS God Vegeta",
+      "alt": "The Prince of All Saiyans",
+      "url": "https://pbs.twimg.com/media/DrvkpBVX4AAT53p.jpg",
+      "descricao": "Shintani Style"
     },
-
     {
-        "id": 3,
-        "titulo": "SS Blue Goku",
-        "alt": "The Super Saiyan God",
-        "url": "https://i.pinimg.com/736x/15/cf/ae/15cfae5d3714eb4189589615945690bd.jpg",
-        "descricao": "Shintani Style"
+      "id": 3,
+      "titulo": "SS Blue Goku",
+      "alt": "The Super Saiyan God",
+      "url": "https://i.pinimg.com/736x/15/cf/ae/15cfae5d3714eb4189589615945690bd.jpg",
+      "descricao": "Shintani Style"
     },
-
     {
-        "id": 4,
-        "titulo": "SS Rosé Goku Black",
-        "alt": "The Evil Super Saiyan God",
-        "url": "https://i.pinimg.com/originals/29/e3/ae/29e3ae12ae463720d95154c118539ac7.jpg",
-        "descricao": "Shintani Style"
+      "id": 4,
+      "titulo": "SS Rosé Goku Black",
+      "alt": "The Evil Super Saiyan God",
+      "url": "https://i.pinimg.com/originals/29/e3/ae/29e3ae12ae463720d95154c118539ac7.jpg",
+      "descricao": "Shintani Style"
     }
   ],
-  "usuarios": [],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "luis",
+      "password": "123@senac",
+      "fullname": "Luis Lessa",
+      "email": "prof.lpjunior@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "João",
+      "password": "456@senac",
+      "fullname": "João Barreto",
+      "email": "alu.jpbarre@gmail.com"
+    },
+    {
+      "username": "sdadsada",
+      "password": "sadasdasd",
+      "id": 3
+    }
+  ],
   "comentarios": [
     {
-        "id": 1,
-        "materia-id": 1,
-        "nome": "Luis",
-        "comentario": "dashdasudhaushdasdhuasduashduh"
+      "id": 1,
+      "materia-id": 1,
+      "nome": "Luis",
+      "comentario": "dashdasudhaushdasdhuasduashduh"
     }
   ]
 }

@@ -23,7 +23,7 @@
 </style>
 
 <div class="login-form">
-    <form [formGroup]="loginForm" method="post">
+    <form [formGroup]="loginForm" (submit)="login()">
         <h2 class="text-center">Log in</h2>       
         <div class="form-group">
             <input formControlName="username" type="text" class="form-control" placeholder="Username" autofocus>
